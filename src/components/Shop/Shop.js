@@ -29,7 +29,7 @@ const Shop = () => {
         setCart(oneCart);
 
 
-        alert('use it');
+        alert('It is best.use it .Click ok');
     }
     return (
         <div className='shop-container'>

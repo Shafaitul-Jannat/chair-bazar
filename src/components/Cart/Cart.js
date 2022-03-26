@@ -24,8 +24,10 @@ const Cart = (props) => {
                 < h6 > {item.name}</h6>
             ))
             }
-            <button className="choose1ForMe" onClick={() => choose1ForMe()}>Choose 1 for me</button>
-            <button onClick={() => chooseAgain()}>Choose Again</button>
+            <div>
+                <button className="choose1ForMe" onClick={() => choose1ForMe()}>Choose 1 for me</button></div>
+            <div>
+                <button className="chooseAgain" onClick={() => chooseAgain()}>Choose Again</button></div>
         </div >
     );
 };
