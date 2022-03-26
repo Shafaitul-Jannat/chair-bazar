@@ -15,6 +15,7 @@ function App() {
         </div>
         <div className='ques'>
           <h4>Props vs State</h4>
+          Props: It is now a standard that Props, also known as Properties, shall not be modified. Components inherit props from their parent that should not be changed within the component. Data travels from the parent to the child in React and React Native.
         </div>
 
 
